@@ -1,3 +1,18 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://saif-sayeed.github.io/hugoweb/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Saif Sayeed'
+theme = "m10c"
+
+[params]
+  author = "Saif Sayeed"
+  description = "Personal Web Folio"
+
+  [[params.social]]
+    icon = "github"
+    name = "GitHub"
+    url = "https://github.com/saif-sayeed"
+
+  [[params.social]]
+    icon = "twitter"
+    name = "Twitter"
+    url = "https://twitter.com/saif_human"
